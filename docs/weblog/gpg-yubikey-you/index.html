@@ -14,7 +14,7 @@ My first goal is to sign git commits with it. Because I am a man of negligible i
 <meta property="article:published_time" content="2020-03-14T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2020-03-14T00:00:00&#43;00:00" />
 
-<title>GPG &amp; YubiKey &amp; You | Jake Van Alstyne</title>
+<title>GPG &amp; YubiKey &amp; You | m3ta4a</title>
 
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500&display=swap');
@@ -22,7 +22,7 @@ My first goal is to sign git commits with it. Because I am a man of negligible i
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.4db79b0912f9360b9917c814f918cf85348cc29ce927e41be526616ac0ffd417.css" integrity="sha256-TbebCRL5NguZF8gU&#43;RjPhTSMwpzpJ&#43;Qb5SZhasD/1Bc=">
-<script defer src="/en.search.min.11009145d2c6389822424796abb8b8394dbdefbe904400345d56dda8fd99a2cb.js" integrity="sha256-EQCRRdLGOJgiQkeWq7i4OU29776QRAA0XVbdqP2Zoss="></script>
+<script defer src="/en.search.min.d27575ff6b57b4ac66d7f99fe0f4a460952302e47f929bc6b4357234b559980e.js" integrity="sha256-0nV1/2tXtKxm1/mf4PSkYJUjAuR/kpvGtDVyNLVZmA4="></script>
 
 <script type="application/javascript">
 var doNotTrack = false;
@@ -49,7 +49,7 @@ https://github.com/alex-shpak/hugo-book
       
 <nav>
 <h2 class="book-brand">
-  <a href="/"><span>Jake Van Alstyne</span>
+  <a href="/"><span>m3ta4a</span>
   </a>
 </h2>
 
@@ -378,7 +378,7 @@ sec  rsa4096/98973C978ECA988D
      trust: ultimate      validity: ultimate
 ssb  rsa4096/015D68EE1E7AC274
      created: 2020-03-14  expires: never       usage: E
-[ultimate] (1). Jake Van Alstyne (testing) &lt;email@address.org&gt;
+[ultimate] (1). m3ta4a (testing) &lt;email@address.org&gt;
 </code></pre><p>The usage of the first key is marked as <code>SC</code>. The second is <code>E</code>. That means the primary key can sign and certify, while the subkey can encrypt.</p>
 <p>If you have an existing key, you could use it to sign this new one to maintain a chain of custody: <code>gpg -u &lt;your_old_keyid&gt; --sign-key &lt;longid&gt;</code></p>
 <p>While we&rsquo;re here, let&rsquo;s add separate authentication and signing keys to prepare to fill the slots on the YubiKey.</p>
@@ -434,8 +434,8 @@ gpg --armor --output pubkey.asc --export &lt;longid&gt;
 <p>And let&rsquo;s restart the GPG agent: <code>gpg-connect-agent reloadagent</code>. Get out of there with <code>/bye</code>. Now when you make a commit, git will require the key to be present. If it&rsquo;s not, the commit will fail. If you want to make a signed commit and see what it looks like in the log, the command for that is <code>git log --show-signature</code>.</p>
 <pre><code>gpg: Signature made Sat Mar 14 03:30:27 2020 MDT
 gpg:                using RSA key 05FFE31C369D8F25CFFF2167FDF8E68C5B840388
-gpg: Good signature from &quot;Jake Van Alstyne &lt;jakeva@gmail.com&gt;&quot; [ultimate]
-Author: Jake Van Alstyne 🎩 &lt;jakeva@gmail.com&gt;
+gpg: Good signature from &quot;m3ta4a &lt;jakeva@gmail.com&gt;&quot; [ultimate]
+Author: m3ta4a 🎩 &lt;jakeva@gmail.com&gt;
 Date:   Sat Mar 14 03:27:35 2020 -0600
 
     Add YubiKey Post
