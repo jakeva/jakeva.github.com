@@ -10,7 +10,7 @@ My first goal is to sign git commits with it. Because I am a man of negligible i
 <meta property="og:description" content="I&rsquo;ve recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.
 My first goal is to sign git commits with it. Because I am a man of negligible importance, this is in fact NOT an excercise in security. I&rsquo;m taking more of a hobbyist approach." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jakevanalstyne.me/docs/blog/gpg-yubikey-you/" />
+<meta property="og:url" content="https://m3ta4a.io/docs/blog/gpg-yubikey-you/" />
 <meta property="article:published_time" content="2020-03-14T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-03-14T00:00:00+00:00" />
 <title>GPG &amp; YubiKey &amp; You | Jake Van Alstyne</title>
@@ -27,14 +27,14 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
 
-  
+
 </head>
 
 <body dir=>
   <input type="checkbox" class="hidden" id="menu-control" />
   <main class="container flex">
     <aside class="book-menu">
-      
+
 <nav>
 <h2 class="book-brand">
   <a href="/"><span>Jake Van Alstyne</span>
@@ -58,157 +58,157 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  
 
 
 
-  
-  
-  
-  
 
-  
+
+
+
+
+
+
   <ul>
-    
-      
+
+
         <li>
-          
-  
+
+
     <a href="/docs/blog/" class="collapsed ">Blog</a>
-  
 
-          
-  
-  
-  
 
-  
+
+
+
+
+
+
   <ul>
-    
-      
+
+
         <li>
-          
-  
+
+
     <a href="/docs/blog/how-i-post-to-this-blog-using-ios-shortcuts-and-pythonista/" class="">How I (used to) post to this blog using iOS Shortcuts and Pythonista</a>
-  
+
 
         </li>
-      
-    
-      
+
+
+
         <li>
-          
-  
+
+
     <a href="/docs/blog/gpg-yubikey-you/" class="active">GPG &amp; YubiKey &amp; You</a>
-  
+
 
         </li>
-      
-    
-      
+
+
+
         <li>
-          
-  
+
+
     <a href="/docs/blog/raspberry-pi-btc-node/" class="">Raspberry Pi BTC Node</a>
-  
+
 
         </li>
-      
-    
-      
+
+
+
         <li>
-          
-  
+
+
     <a href="/docs/blog/diy-nas/" class="">Building my own NAS</a>
-  
+
 
         </li>
-      
-    
+
+
   </ul>
-  
+
 
         </li>
-      
-    
-      
+
+
+
         <li>
-          
-  
+
+
     <a href="/docs/haikus/" class="collapsed ">Haikus</a>
-  
 
-          
-  
-  
-  
 
-  
+
+
+
+
+
+
 
         </li>
-      
-    
-      
+
+
+
         <li>
-          
-  
+
+
     <a href="/docs/travel/" class="collapsed ">Travel</a>
-  
 
-          
-  
-  
-  
 
-  
+
+
+
+
+
+
 
         </li>
-      
-    
-      
+
+
+
         <li>
-          
-  
+
+
     <a href="/docs/about/" class="">About</a>
-  
 
-          
-  
-  
-  
 
-  
+
+
+
+
+
+
   <ul>
-    
+
   </ul>
-  
+
 
         </li>
-      
-    
-      
+
+
+
         <li>
-          
-  
+
+
     <a href="/docs/resume/" class="">Resume</a>
-  
 
-          
-  
-  
-  
 
-  
+
+
+
+
+
+
   <ul>
-    
+
   </ul>
-  
+
 
         </li>
-      
-    
+
+
   </ul>
-  
+
 
 
 
@@ -233,12 +233,12 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-      
+
     </aside>
 
     <div class="book-page">
       <header class="book-header">
-        
+
 <div class="flex align-center justify-between">
   <label for="menu-control">
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
@@ -247,9 +247,9 @@ https://github.com/alex-shpak/hugo-book
   <strong>GPG &amp; YubiKey &amp; You</strong>
 
   <label for="toc-control">
-    
+
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
-    
+
   </label>
 </div>
 
@@ -257,7 +257,7 @@ https://github.com/alex-shpak/hugo-book
 
 <input type="checkbox" class="hidden" id="toc-control" />
 <aside class="hidden clearfix">
-  
+
 <nav id="TableOfContents">
   <ul>
     <li><a href="#configure-your-yubikey">Configure your YubiKey</a></li>
@@ -280,35 +280,35 @@ https://github.com/alex-shpak/hugo-book
 </aside>
 
 
-        
+
       </header>
 
-      
-      
+
+
 <article class="markdown">
   <h1>
     <a href="/docs/blog/gpg-yubikey-you/">GPG &amp; YubiKey &amp; You</a>
   </h1>
-  
+
   <h5>March 14, 2020</h5>
 
 
 
-  
+
   <div>
-    
+
       <a href="/categories/Security/">Security</a>
   </div>
-  
 
-  
+
+
   <div>
-    
-      <a href="/tags/YubiKey/">YubiKey</a>, 
-      <a href="/tags/git/">git</a>, 
+
+      <a href="/tags/YubiKey/">YubiKey</a>,
+      <a href="/tags/git/">git</a>,
       <a href="/tags/gpg/">gpg</a>
   </div>
-  
+
 
 
   <p><p>I&rsquo;ve recently taken on the task of setting up my YubiKeys for usage beyond 2 factor auth. Something I learned was that OpenPGP smartcards (which include YubiKeys) have slots for three separate keys: Signature, Encryption, and Authentication.</p>
@@ -433,11 +433,11 @@ Date:   Sat Mar 14 03:27:35 2020 -0600
   crossorigin="anonymous" async>
   </script>
 
-      
-      
+
+
 
       <footer class="book-footer">
-        
+
 <div class="flex flex-wrap justify-between">
 
 
@@ -447,25 +447,25 @@ Date:   Sat Mar 14 03:27:35 2020 -0600
 </div>
 
 
-        
-        
+
+
       </footer>
 
-      
+
 
 <div class="book-comments">
 
 </div>
 
 
-      
+
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
-    
+
     <aside class="book-toc">
-      
+
 <nav id="TableOfContents">
   <ul>
     <li><a href="#configure-your-yubikey">Configure your YubiKey</a></li>
@@ -485,24 +485,12 @@ Date:   Sat Mar 14 03:27:35 2020 -0600
 </nav>
 
 
-      
+
     </aside>
-    
+
   </main>
 
-  
+
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-

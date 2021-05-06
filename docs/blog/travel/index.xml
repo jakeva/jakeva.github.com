@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jake Van Alstyne</title>
-    <link>https://jakevanalstyne.me/docs/blog/travel/</link>
+    <link>https://m3ta4a.io/docs/blog/travel/</link>
     <description>Recent content on Jake Van Alstyne</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://jakevanalstyne.me/docs/blog/travel/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://m3ta4a.io/docs/blog/travel/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

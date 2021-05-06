@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on m3ta4a</title>
-    <link>https://jakevanalstyne.me/categories/</link>
+    <link>https://m3ta4a.io/categories/</link>
     <description>Recent content in Categories on m3ta4a</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Feb 2021 16:55:05 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 16:55:05 -0700</lastBuildDate><atom:link href="https://m3ta4a.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chess</title>
-      <link>https://jakevanalstyne.me/categories/chess/</link>
+      <link>https://m3ta4a.io/categories/chess/</link>
       <pubDate>Fri, 05 Feb 2021 16:55:05 -0700</pubDate>
       
-      <guid>https://jakevanalstyne.me/categories/chess/</guid>
+      <guid>https://m3ta4a.io/categories/chess/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Logic</title>
-      <link>https://jakevanalstyne.me/categories/logic/</link>
+      <link>https://m3ta4a.io/categories/logic/</link>
       <pubDate>Fri, 05 Feb 2021 16:55:05 -0700</pubDate>
       
-      <guid>https://jakevanalstyne.me/categories/logic/</guid>
+      <guid>https://m3ta4a.io/categories/logic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://jakevanalstyne.me/categories/math/</link>
+      <link>https://m3ta4a.io/categories/math/</link>
       <pubDate>Fri, 05 Feb 2021 16:55:05 -0700</pubDate>
       
-      <guid>https://jakevanalstyne.me/categories/math/</guid>
+      <guid>https://m3ta4a.io/categories/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>DIY</title>
-      <link>https://jakevanalstyne.me/categories/diy/</link>
+      <link>https://m3ta4a.io/categories/diy/</link>
       <pubDate>Thu, 26 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/categories/diy/</guid>
+      <guid>https://m3ta4a.io/categories/diy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>https://jakevanalstyne.me/categories/security/</link>
+      <link>https://m3ta4a.io/categories/security/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://jakevanalstyne.me/categories/security/</guid>
+      <guid>https://m3ta4a.io/categories/security/</guid>
       <description></description>
     </item>
     

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>m3ta4a</title>
-    <link>https://jakevanalstyne.me/docs/</link>
+    <link>https://m3ta4a.io/docs/</link>
     <description>Recent content on m3ta4a</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Feb 2021 16:55:05 -0700</lastBuildDate><atom:link href="https://jakevanalstyne.me/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Feb 2021 16:55:05 -0700</lastBuildDate><atom:link href="https://m3ta4a.io/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
