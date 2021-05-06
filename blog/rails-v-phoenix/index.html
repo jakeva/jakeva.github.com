@@ -3,20 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&rsquo;t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I&rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just &lsquo;get it&rsquo; better, maybe the magic of rails makes it hard to feel that way for me.">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Rails v Phoenix" />
-<meta property="og:description" content="fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&rsquo;t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I&rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just &lsquo;get it&rsquo; better, maybe the magic of rails makes it hard to feel that way for me." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://m3ta4a.io/blog/rails-v-phoenix/" />
-<meta property="article:published_time" content="2020-04-15T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-04-15T00:00:00+00:00" />
-<title>Rails v Phoenix | Jake Van Alstyne</title>
-<link rel="manifest" href="/manifest.json">
-<link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/book.min.1b35ac1244ef60b98a0e9801f795e8f6e0b7547ba92e9d9d0003253b82c493e3.css" integrity="sha256-GzWsEkTvYLmKDpgB95Xo9uC3VHupLp2dAAMlO4LEk&#43;M=">
-<script defer src="/en.search.min.b0074af72179db892976326cd0c863422c899d54edcad5dd482b6b1716f6772f.js" integrity="sha256-sAdK9yF524kpdjJs0MhjQiyJnVTtytXdSCtrFxb2dy8="></script>
-<!--
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&rsquo;t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I&rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just &lsquo;get it&rsquo; better, maybe the magic of rails makes it hard to feel that way for me.">
+  <meta name="theme-color" content="#FFFFFF">
+  <meta property="og:title" content="Rails v Phoenix" />
+  <meta property="og:description"
+    content="fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&rsquo;t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I&rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just &lsquo;get it&rsquo; better, maybe the magic of rails makes it hard to feel that way for me." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://m3ta4a.io/blog/rails-v-phoenix/" />
+  <meta property="article:published_time" content="2020-04-15T00:00:00+00:00" />
+  <meta property="article:modified_time" content="2020-04-15T00:00:00+00:00" />
+  <title>Rails v Phoenix | Jake Van Alstyne</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="/book.min.1b35ac1244ef60b98a0e9801f795e8f6e0b7547ba92e9d9d0003253b82c493e3.css"
+    integrity="sha256-GzWsEkTvYLmKDpgB95Xo9uC3VHupLp2dAAMlO4LEk&#43;M=">
+  <script defer src="/en.search.min.b0074af72179db892976326cd0c863422c899d54edcad5dd482b6b1716f6772f.js"
+    integrity="sha256-sAdK9yF524kpdjJs0MhjQiyJnVTtytXdSCtrFxb2dy8="></script>
+  <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
@@ -29,22 +34,19 @@ https://github.com/alex-shpak/hugo-book
   <main class="container flex">
     <aside class="book-menu">
 
-<nav>
-<h2 class="book-brand">
-  <a href="/"><span>Jake Van Alstyne</span>
-  </a>
-</h2>
+      <nav>
+        <h2 class="book-brand">
+          <a href="/"><span>Jake Van Alstyne</span>
+          </a>
+        </h2>
 
 
-<div class="book-search">
-  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
-  <div class="book-search-spinner hidden"></div>
-  <ul id="book-search-results"></ul>
-</div>
-
-
-
-
+        <div class="book-search">
+          <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64"
+            data-hotkeys="s/" />
+          <div class="book-search-spinner hidden"></div>
+          <ul id="book-search-results"></ul>
+        </div>
 
 
 
@@ -66,39 +68,43 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-<ul>
-
-  <li>
-    <a href="/blog/" >
-        Blog
-      </a>
-  </li>
-
-  <li>
-    <a href="/haikus/" >
-        Haikus
-      </a>
-  </li>
-
-  <li>
-    <a href="/resume/" >
-        Resume
-      </a>
-  </li>
-
-</ul>
 
 
 
 
+        <ul>
+
+          <li>
+            <a href="/blog/">
+              Blog
+            </a>
+          </li>
+
+          <li>
+            <a href="/haikus/">
+              Haikus
+            </a>
+          </li>
+
+          <li>
+            <a href="/resume/">
+              Resume
+            </a>
+          </li>
+
+        </ul>
 
 
-</nav>
 
 
 
 
-  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+      </nav>
+
+
+
+
+      <script>(function () { var menu = document.querySelector("aside.book-menu nav"); addEventListener("beforeunload", function (event) { localStorage.setItem("menu.scrollTop", menu.scrollTop); }); menu.scrollTop = localStorage.getItem("menu.scrollTop"); })();</script>
 
 
 
@@ -108,29 +114,29 @@ https://github.com/alex-shpak/hugo-book
     <div class="book-page">
       <header class="book-header">
 
-<div class="flex align-center justify-between">
-  <label for="menu-control">
-    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
-  </label>
+        <div class="flex align-center justify-between">
+          <label for="menu-control">
+            <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+          </label>
 
-  <strong>Rails v Phoenix</strong>
+          <strong>Rails v Phoenix</strong>
 
-  <label for="toc-control">
+          <label for="toc-control">
 
-    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+            <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
 
-  </label>
-</div>
-
-
-
-<input type="checkbox" class="hidden" id="toc-control" />
-<aside class="hidden clearfix">
-
-<nav id="TableOfContents"></nav>
+          </label>
+        </div>
 
 
-</aside>
+
+        <input type="checkbox" class="hidden" id="toc-control" />
+        <aside class="hidden clearfix">
+
+          <nav id="TableOfContents"></nav>
+
+
+        </aside>
 
 
 
@@ -138,46 +144,50 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-<article class="markdown">
-  <h1>
-    <a href="/blog/rails-v-phoenix/">Rails v Phoenix</a>
-  </h1>
+      <article class="markdown">
+        <h1>
+          <a href="/blog/rails-v-phoenix/">Rails v Phoenix</a>
+        </h1>
 
-  <h5>April 15, 2020</h5>
-
-
-
-
-  <div>
-
-      <a href="/categories/Shit-Post/">Shit Post</a>
-  </div>
+        <h5>April 15, 2020</h5>
 
 
 
 
+        <div>
 
-  <p><p>fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&rsquo;t by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx. I&rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I think I just &lsquo;get it&rsquo; better, maybe the magic of rails makes it hard to feel that way for me.
-12:19
-or maybe it was that i learned rails first and learning phx second made it a gentler learning curve</p>
-</p>
-</article>
-<script src="https://utteranc.es/client.js" repo="jakeva/jakeva.github.io" issue-term="pathname" theme="github-dark"
-  crossorigin="anonymous" async>
-  </script>
+          <a href="/categories/Shit-Post/">Shit Post</a>
+        </div>
+
+
+
+
+
+        <p>
+        <p>fwiw I think I now have roughly the same amount of experience in both rails and phoenix which doesn&rsquo;t
+          by any means make me an expert pro with blog worthy opinions, but I do think I slightly prefer elixir/phx.
+          I&rsquo;ve started a handful of side projects recently and I keep finding myself starting them with elixir. I
+          think I just &lsquo;get it&rsquo; better, maybe the magic of rails makes it hard to feel that way for me.
+          12:19
+          or maybe it was that i learned rails first and learning phx second made it a gentler learning curve</p>
+        </p>
+      </article>
+      <script src="https://utteranc.es/client.js" repo="m3ta4a/m3ta4a.github.io" issue-term="pathname"
+        theme="github-dark" crossorigin="anonymous" async>
+        </script>
 
 
 
 
       <footer class="book-footer">
 
-<div class="flex flex-wrap justify-between">
+        <div class="flex flex-wrap justify-between">
 
 
 
 
 
-</div>
+        </div>
 
 
 
@@ -186,9 +196,9 @@ or maybe it was that i learned rails first and learning phx second made it a gen
 
 
 
-<div class="book-comments">
+      <div class="book-comments">
 
-</div>
+      </div>
 
 
 
@@ -199,7 +209,7 @@ or maybe it was that i learned rails first and learning phx second made it a gen
 
     <aside class="book-toc">
 
-<nav id="TableOfContents"></nav>
+      <nav id="TableOfContents"></nav>
 
 
 
